@@ -5,7 +5,7 @@ import MovieCard from "./MovieCard.jsx";
 import Title from "./Title.jsx";
 import Searchbar from "./Searchbar.jsx";
 
-// 8ccf2ead
+// APIKEY = 8ccf2ead
 
 const API_URL = "https://www.omdbapi.com?apikey=8ccf2ead";
 
