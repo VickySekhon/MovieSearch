@@ -8,9 +8,9 @@ The goal of this project is to gain experience working with React.js and the jsx
 ## How to Install and Run the Project
 
 1. Clone the repository to your local machine
-2. Navigate to the project directory - cd MovieSearch
-3. Install the required dependencies - npm i 
-4. Start the React app - npm run start
+2. Navigate to the project directory - ```cd MovieSearch```
+3. Install the required dependencies - ```npm i```
+4. Start the React app - ```npm run start```
 
 ## Credits
 - Project created by Vicky Sekhon
