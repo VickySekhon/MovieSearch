@@ -6,6 +6,12 @@ const Searchbar = ({onSearch}) => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      onSearch(searchTerm);
+    }
+  }
+
   const handleSearch = () => {
     onSearch(searchTerm);
   };
@@ -16,6 +22,7 @@ const Searchbar = ({onSearch}) => {
       placeholder="Search..." 
       value={searchTerm} 
       onChange={(e) => setSearchTerm(e.target.value)} 
+      onKeyDown={handleKeyDown}
       />
       <img src={searchIcon} alt="Search icon" onClick={handleSearch} />
     </div>
