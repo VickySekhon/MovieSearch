@@ -319,7 +319,7 @@ Add the correct display in Chrome and Safari.
 */
 
 summary {
-  display: list-item;
+  display: list-item;k
 }
 
 /*
@@ -670,9 +670,9 @@ h1 {
 } */
 
 .empty {
+  color: white;
   width: 100%;
   margin-top: 3rem;
-  color: darkred;
   display: flex;
   justify-content: center;
   align-items: center;

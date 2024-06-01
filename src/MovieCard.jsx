@@ -2,7 +2,7 @@ import React from "react";
 
 const MovieCard = ({movie}) => {
   return (
-    <div className="container">
+    <div className="mt-12 flex justify-center items-center flex-wrap">
       <div className="movie">
         <div>
           <p>{movie.Year}</p>

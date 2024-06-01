@@ -29,17 +29,17 @@ const App = () => {
   }
 
   return (
-    <div className="app">
+    <div className="p-16 flex justify-center items-center flex-col">
       <Title />
       <Searchbar onSearch={handleSearch}/>
       {movies?.length > 0 ? (
-        <div className="container">
+        <div className="mt-12 flex justify-center items-center flex-wrap">
           {movies.map((movie) =>
             <MovieCard movie={movie} />
           )}
         </div>
       ) : (
-        <div className="empty">No Movies Found...</div>
+        <div className="w-full mt-12 text-red-500 flex justify-center items-center">No Movies Found...</div>
       )}
     </div>
   );
