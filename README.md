@@ -1,6 +1,7 @@
 # Movie Search Web App
 
 ## Project Description
+
 This project uses ```React.js```, ```Node.js```, and a ```RESTful API``` to deliver a list of movies and their information from an initial search by title.
 
 The goal of this project is to gain experience working with ```React.js``` and the ```.jsx``` syntax. 
